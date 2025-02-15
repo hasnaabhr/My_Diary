@@ -9,9 +9,9 @@ class SplashScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xff1C1C1C),
       body: Center(
-        child: Column(children: [
+        child: Column(crossAxisAlignment: CrossAxisAlignment.center, children: [
           const SizedBox(
-            height: 42,
+            height: 100,
           ),
           const Text(
             'Diary',
